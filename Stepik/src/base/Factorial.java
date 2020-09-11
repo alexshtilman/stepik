@@ -9,7 +9,7 @@ public class Factorial {
 	 * @param value positive number
 	 * @return factorial of <code>value</code>
 	 */
-	public static BigInteger factorial(int value) {
-		return  value == 0 ? BigInteger.ONE : BigInteger.valueOf(value).multiply(factorial (value-1));
+	public static BigInteger Factorial(int value) {
+		return  value == 0 ? BigInteger.ONE : BigInteger.valueOf(value).multiply(Factorial (value-1));
 	}
 }
